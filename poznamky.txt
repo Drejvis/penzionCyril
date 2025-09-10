@@ -1,0 +1,5 @@
+online rezervace formular -
+  <!-- Reservation PLUS start 
+<script type="text/javascript" src="https://booking.previo.app/iframe/"></script>
+<iframe src="https://booking.previo.app/?hotId=767948" scrolling="no" frameborder="0" width="100%" height="2000" name="previo-booking-iframe" id="previo-booking-iframe" allowtransparency="true"></iframe>
+ Reservation PLUS end -->

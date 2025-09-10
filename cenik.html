@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/09e34f0d3f.js" crossorigin="anonymous"></script>
+    <!-- Simpleparallax.js -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+    <title>Penzion u Cyrila</title>
+</head>
+
+<body>
+    <header role="banner" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Hlavní stránka - Logo">Penzion u Cyrila</a>
+
+            <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false"
+                aria-label="Otevřít navigační menu" type="button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav" role="navigation" aria-label="Hlavní navigace">
+                <a href="#domu" tabindex="0">Domů</a>
+                <a href="onlineRezervace.html" tabindex="0">Rezervace</a>
+                <a href="pokoje.html" tabindex="0">Pokoje</a>
+                <a href="penzion.html" tabindex="0">Pezion</a>
+                <a href="#" tabindex="0">Ceník</a>
+                <a href="#kontakt" tabindex="0">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Slide-out -->
+    <nav class="mobile-nav" id="primary-navigation" role="navigation" aria-label="Hlavní navigace mobilní">
+        <a href="#domu" tabindex="0">Domů</a>
+        <a href="onlineRezervace.html" tabindex="0">Rezervace</a>
+        <a href="pokoje.html" tabindex="0">Pokoje</a>
+        <a href="penzion.html" tabindex="0">Pezion</a>
+        <a href="#" tabindex="0">Ceník</a>
+        <a href="#kontakt" tabindex="0">Kontakt</a>
+    </nav>
+
+    <!-- Overlay element for mobile menu -->
+    <div class="overlay" id="menu-overlay" tabindex="-1" aria-hidden="true"></div>
+
+
+
+    <div class="parallax-wrapper">
+        <img src="images/IMG_0615.JPG" class="parallax-img rellax" data-rellax-speed="-2" alt="Pozadí">
+    </div>
+    <div class="banner-title">
+        <h1>Ceník</h1>
+    </div>
+
+
+    <div class="content-pokoje-cenik">
+        <div class="content-pokoj">
+            <div class="content-cenik">
+                <div class="content-cenik-cast">
+                    <div class="content-cenik-cast-left"><h1>Dvoulůžkový pokoj</h1><h2>1 osoba</h2></div>
+                    <div class="content-cenik-cast-right">1000 Kč/ noc</div>
+                </div>
+                <hr>
+                <div class="content-cenik-cast">
+                    <div class="content-cenik-cast-left"><h1>Dvoulůžkový pokoj</h1><h2>2 osoba</h2></div>
+                    <div class="content-cenik-cast-right">1500 Kč/ noc</div>
+                </div>
+                <hr>
+                <div class="content-cenik-cast">
+                    <div class="content-cenik-cast-left"><h1>Apartmán</h1><h2>až 6 osob</h2></div>
+                    <div class="content-cenik-cast-right">2100 - 4200 Kč/ noc</div>
+                </div>
+                <hr>
+                <div class="content-cenik-cast">
+                    <div class="content-cenik-cast-left"><h1>Apartmán č. 8</h1><h2>až 5 osob</h2></div>
+                    <div class="content-cenik-cast-right">2500 - 3900 Kč/ noc</div>
+                </div>
+                <hr>
+                <div class="content-cenik-cast">
+                    <div class="content-cenik-cast-left"><h1>Klubovna</h1><h2>Párty prostor pro 10-15 osob, možnost rezervovat po tel. dohodě</h2></div>
+                    <div class="content-cenik-cast-right">2500 Kč/ noc</div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="button-cenik">
+        <a href="#">Online ceník</a>
+        </div>
+    </div>
+
+    <div class="content-pokoje-recepce">
+        <div class="content-recepce">
+            <h1>Recepce</h1>
+            <p>Ubytování nemá stálou recepci. Uvádějte prosím čas příjezdu na tel. čísle: +420 777 242 118, nebo na e-mail: c.jirous@seznam.cz.</p>
+            <p>
+                <b>příjezd (check-in)</b> od 14:00 hodin, případně dle dohody.<br>
+                <b>Odjezd (check-out)</b> do 10 hodin, případně dle dohody.
+            </p>
+            <p>Potvrzením platby souhlasíte se <a href="storno-podminky">storno podmínkami</a>.</p>
+        </div>
+    </div>
+
+
+
+
+    
+
+
+
+
+    <div class="footer">
+        <div class="footer-left">
+            <h1>Penzion U Cyrila</h1>
+            <h2>Kde nás najdete?</h2>
+            <p>Olomoucká 37, 571 01 Moravská Třebová</p>
+            <h2>Zavolejte nám</h2>
+            <p>+420 777 242 118</p>
+            <h2>Napište nám</h2>
+            <p>c.jirous@seznam.cz</p>
+            <div class="footer-copyright">&copy David Babouček</div>
+        </div>
+        <div class="footer-right">
+            <h1>Otevřeno denně</h1>
+            <h2>Check in</h2>
+            <p>14:00</p>
+            <h2>Check out</h2>
+            <p>10:00</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="loader">
+        <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+            <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke-linecap="round"></circle>
+        </svg>
+    </div>
+    <script src="js/loader.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/navbar-menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var images = document.querySelectorAll('.parallax-img');
+            new simpleParallax(images, {
+                scale: 2,
+                delay: .6,
+                transition: 'cubic-bezier(0,0,0,1)'
+            });
+        });
+    </script>
+
+    <script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+
+  const nextBtn = document.querySelector('.swiper-button-next');
+const prevBtn = document.querySelector('.swiper-button-prev');
+
+function animateArrow(btn) {
+  btn.classList.add('active');
+  setTimeout(() => {
+    btn.classList.remove('active');
+  }, 300); // délka animace v ms (shodná s CSS)
+}
+
+nextBtn.addEventListener('click', () => animateArrow(nextBtn));
+prevBtn.addEventListener('click', () => animateArrow(prevBtn));
+</script>
+</body>
+
+</html>
