@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/09e34f0d3f.js" crossorigin="anonymous"></script>
+    <!-- Simpleparallax.js -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+    <title>Penzion U Cyrila - Storno</title>
+</head>
+
+<body>
+    <header role="banner" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Hlavní stránka - Logo">Penzion U Cyrila</a>
+
+            <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false"
+                aria-label="Otevřít navigační menu" type="button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav" role="navigation" aria-label="Hlavní navigace">
+                <a href="index.html" tabindex="0">Domů</a>
+                <a href="onlineRezervace.html" tabindex="0">Rezervace</a>
+                <a href="pokoje.html" tabindex="0">Pokoje</a>
+                <a href="penzion.html" tabindex="0">Penzion</a>
+                <a href="cenik.html" tabindex="0">Ceník</a>
+                <a href="#kontakt" tabindex="0">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Slide-out -->
+    <nav class="mobile-nav" id="primary-navigation" role="navigation" aria-label="Hlavní navigace mobilní">
+        <a href="#domu" tabindex="0">Domů</a>
+        <a href="onlineRezervace.html" tabindex="0">Rezervace</a>
+        <a href="pokoje.html" tabindex="0">Pokoje</a>
+        <a href="penzion.html" tabindex="0">Penzion</a>
+        <a href="cenik.html" tabindex="0">Ceník</a>
+        <a href="#kontakt" tabindex="0">Kontakt</a>
+    </nav>
+
+    <!-- Overlay element for mobile menu -->
+    <div class="overlay" id="menu-overlay" tabindex="-1" aria-hidden="true"></div>
+
+
+
+    <div class="parallax-wrapper">
+        <img src="images-old/DSC_0199.JPG" class="parallax-img rellax" data-rellax-speed="-2" alt="Pozadí">
+    </div>
+    <div class="banner-title">
+        <h1>Storno podmínky</h1>
+    </div>
+
+
+    <div class="content-storno">
+        <p>1/ Host má právo kdykoliv potvrzenou rezervaci zrušit min.14 dní před datem nástupu bez stornopoplatků, a to písemně, e-mailem. Na pozdější storna se vztahují následující podmínky : V případě zrušení rezervace méně než 14 dní před příjezdem host zaplatí 100 % celkové ceny rezervace.</p>
+        <p>2/ V případě storna z důvodů neodvratitelných událostí (úmrtí v rodině, hospitalizace, vážné onemocnění, živelná pohroma), se poplatek neúčtuje. Výše uvedené skutečnosti je host povinen doložit písemným dokladem ubytovateli, nejpozději do 3 dnů od jejich vzniku. Ubytovatel je povinen písemně potvrdit přijetí písemného storna.</p>
+        <p>3/ V případě předčasného ukončení pobytu ze strany hosta, nevzniká tomuto povinnost vrátit zaplacenou cenu pobytu, ani její poměrnou část. Tyto podmínky jsou v souladu s § 273 zákon č. 513/1991 Sb. obchodní zákoník a jsou platné a účinné od 1.1.2018. Storno podmínky se vztahují pouze na potvrzené písemné objednávky, tj. dopis, e-mail. Zrušení objednávky pobytu lze provést ze strany hosta pouze písemně, tj. dopis, e-mail. U slevových poukazů a akčních nabídek není možné zrušení rezervovaného termínu, storno vždy 100 %. Výjimkou jsou případy, spojené s neodvratitelnou událostí ( úmrtí v rodině, vážné onemocnění, hospitalizace, živelná pohroma). V takových případech je host povinen písemně skutečnost doložit.</p>
+    </div>
+
+
+
+
+    
+
+
+
+
+    <div class="footer">
+        <div class="footer-left">
+            <h1>Penzion U Cyrila</h1>
+            <h2>Kde nás najdete?</h2>
+            <p>Olomoucká 37, 571 01 Moravská Třebová</p>
+            <h2>Zavolejte nám</h2>
+            <p>+420 777 242 118</p>
+            <h2>Napište nám</h2>
+            <p>c.jirous@seznam.cz</p>
+            <div class="footer-copyright">&copy David Babouček</div>
+        </div>
+        <div class="footer-right">
+            <h1>Otevřeno denně</h1>
+            <h2>Check in</h2>
+            <p>14:00</p>
+            <h2>Check out</h2>
+            <p>10:00</p>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="loader">
+        <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+            <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke-linecap="round"></circle>
+        </svg>
+    </div>
+    <script src="js/loader.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/navbar-menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var images = document.querySelectorAll('.parallax-img');
+            new simpleParallax(images, {
+                scale: 2,
+                delay: .6,
+                transition: 'cubic-bezier(0,0,0,1)'
+            });
+        });
+    </script>
+
+    <script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+
+  const nextBtn = document.querySelector('.swiper-button-next');
+const prevBtn = document.querySelector('.swiper-button-prev');
+
+function animateArrow(btn) {
+  btn.classList.add('active');
+  setTimeout(() => {
+    btn.classList.remove('active');
+  }, 300); // délka animace v ms (shodná s CSS)
+}
+
+nextBtn.addEventListener('click', () => animateArrow(nextBtn));
+prevBtn.addEventListener('click', () => animateArrow(prevBtn));
+</script>
+</body>
+
+</html>

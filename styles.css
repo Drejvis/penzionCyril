@@ -577,13 +577,17 @@ nav::-webkit-scrollbar-thumb {
   font-size: 2.5rem;
 }
 
+@media(max-width: 900px) {
+
+
+}
 
 .footer {
   display: flex;
   justify-content: space-between;
   padding: 15px 0 20px 0;
-  background: #000;
-  color: #fff;
+  background: #f6f6f6;
+  color: #242424;
 }
 .footer-left h1 {
  font-size: 2rem;
@@ -614,7 +618,7 @@ nav::-webkit-scrollbar-thumb {
 
 .footer .footer-copyright {
   font-weight: 700;
-  color: #4b4b4b;
+  color: #b3b3b3;
 }
 
 
@@ -625,11 +629,61 @@ nav::-webkit-scrollbar-thumb {
   margin: 50px auto;
 }
 
+@media(max-width: 1050px) {
+  .content {
+  width: 90%;
+}
+}
+
+@media(max-width: 900px) {
+.content-img-right img {
+  width: 250px;
+}
+.content-img-left img {
+  width: 250px;
+}
+}
+
+@media(max-width: 750px) {
+.content-section-1 {
+  flex-direction: column;
+}
+.content-section-2 {
+  flex-direction: column !important;
+}
+.content-img-right img {
+  max-width: 100%;
+}
+.content-img-left img {
+  max-width: 100%;
+}
+.content-text-left p {
+  font-size: 1.2rem;
+  text-align: center;
+  border-left: none;
+  padding-left: 15px;
+}
+.content-text-right {
+  width: 90% !important;
+}
+.content-text-left {
+  width: 90% !important;
+}
+
+}
 .content-section-1 {
   display: flex;
   justify-content: space-between;
   padding: 30px;
   gap: 40px;
+}
+
+.content-img-right img {
+  max-width: 400px;
+}
+
+.content-img-left img {
+  max-width: 400px;
 }
 
 .content-text-left {
@@ -658,7 +712,6 @@ nav::-webkit-scrollbar-thumb {
   text-align: left;
   padding-bottom: 10px;
 }
-
 
 .content-section-2 {
   display: flex;
@@ -712,7 +765,6 @@ nav::-webkit-scrollbar-thumb {
   color: goldenrod;
 }
 
-/* Container - zmenšíme šířku a výšku */
 .swiper {
   width: 600px;     /* šířka slideru */
   margin: 20px auto; /* vystředění */
@@ -721,6 +773,23 @@ nav::-webkit-scrollbar-thumb {
   box-shadow: 0px 0px 35px #acacac;
 }
 
+@media(max-width: 1000px) {
+.swiper {
+  width: 400px;
+}
+}
+@media(max-width: 635px) {
+.swiper {
+  width: 100% !important;
+  border-radius: 0px !important;
+}
+.swiper-slide img {
+  border-radius: 0 !important;
+}
+.content-pokoje {
+  width: 90% !important;
+}
+}
 /* Obrázky ve slidech */
 .swiper-slide img {
   width: 100%;
@@ -909,4 +978,19 @@ nav::-webkit-scrollbar-thumb {
 
 .content-recepce a {
   color: goldenrod;
+}
+
+#video-h1 {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.content-storno {
+  margin: 20px auto;
+  text-align: center;
+  width: 90%;
+}
+
+.content-storno p {
+  padding-bottom: 30px;
 }
